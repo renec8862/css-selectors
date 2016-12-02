@@ -18,20 +18,18 @@
   left: 369px;
 }
 
-/* Select the image inside the element with an id of sand (using its descendent relationship) */
-
-<div id="sand">
-      <img src="images/sapphire-gem.png" alt="Sapphire">
-    </div> {
+/* Select the image inside the element with an id of sand (using its descendent relationship) */ \
+div img
+    img:sapphire  {
   position: absolute;
   z-index: 5;
   top: 315px;
   left: 275px;
 }
 
-/* Select the image based on it being a sibling that follows immediately after the element with an id of ocean (using adjacent sibling selector) */
+/* Select the image based on it being a sibling that follows immediately after the element with an id of ocean (using adjacent sibling selector) */           
+#ocean + img {
 
-/*selector for yellow diamond goes here */ {
   position: absolute;
   z-index: 4;
   top: 325px;
@@ -40,7 +38,7 @@
 
 /* Select the image that has an attribute value matching "Diamond" (using attribute selector) */
 
-/*selector for diamond goes here */ {
+img[alt="Diamond"] {
   position: absolute;
   z-index: 3;
   top: 300px;
